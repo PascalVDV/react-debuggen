@@ -27,7 +27,7 @@ cd react-debuggen
 ```
 
 1. **Verwijder de `.git` directory volledig**:
-Dit zorgt ervoor dat je de versiegeschiedenis van de originele repository loslaat en de inhoud als een nieuwe set bestanden behandelt.
+   Dit zorgt ervoor dat je de versiegeschiedenis van de originele repository loslaat en de inhoud als een nieuwe set bestanden behandelt.
 
 ```powershell
 rm -rf .git
@@ -73,12 +73,12 @@ Als gebruiker wil ik films kunnen toevoegen aan mijn favorietenlijst, zodat ik e
 
 ### Acceptatiecriteria:
 
-- [ ]  Er is een invoerveld aanwezig waar ik de titel van een film kan typen.
-- [ ]  Er is een knop aanwezig om de ingevoerde film toe te voegen aan de lijst.
-- [ ]  Wanneer ik op de knop klik, wordt de film aan de lijst toegevoegd.
-- [ ]  De ingevoerde film wordt onder de bestaande favorieten getoond.
-- [ ]  Als ik een lege titel probeer toe te voegen, krijg ik een foutmelding dat de filmnaam niet leeg mag zijn.
-- [ ]  De invoerveld moet na het toevoegen van een film automatisch leeg worden gemaakt.
+- [x] Er is een invoerveld aanwezig waar ik de titel van een film kan typen.
+- [x] Er is een knop aanwezig om de ingevoerde film toe te voegen aan de lijst.
+- [x] Wanneer ik op de knop klik, wordt de film aan de lijst toegevoegd.
+- [x] De ingevoerde film wordt onder de bestaande favorieten getoond.
+- [x] Als ik een lege titel probeer toe te voegen, krijg ik een foutmelding dat de filmnaam niet leeg mag zijn.
+- [x] De invoerveld moet na het toevoegen van een film automatisch leeg worden gemaakt.
 
 ---
 
@@ -88,10 +88,10 @@ Als gebruiker wil ik films uit mijn favorietenlijst kunnen verwijderen, zodat ik
 
 ### Acceptatiecriteria:
 
-- [ ]  Elke film in de lijst heeft een verwijderknop naast de filmtitel.
-- [ ]  Wanneer ik op de verwijderknop klik, wordt de bijbehorende film uit de lijst verwijderd.
-- [ ]  Na het verwijderen moet de film direct uit de lijst verdwijnen.
-- [ ]  Er verschijnt geen foutmelding wanneer een film succesvol verwijderd is.
+- [x] Elke film in de lijst heeft een verwijderknop naast de filmtitel.
+- [x] Wanneer ik op de verwijderknop klik, wordt de bijbehorende film uit de lijst verwijderd.
+- [x] Na het verwijderen moet de film direct uit de lijst verdwijnen.
+- [x] Er verschijnt geen foutmelding wanneer een film succesvol verwijderd is.
 
 ---
 
@@ -101,9 +101,9 @@ Als gebruiker wil ik niet dat dezelfde film meerdere keren kan worden toegevoegd
 
 ### Acceptatiecriteria:
 
-- [ ]  Wanneer ik probeer een film toe te voegen die al in de lijst staat, krijg ik een foutmelding dat de film al bestaat.
-- [ ]  De film wordt niet toegevoegd als deze al in de lijst voorkomt.
-- [ ]  De lijst bevat nooit duplicaten van dezelfde filmtitel.
+- [x] Wanneer ik probeer een film toe te voegen die al in de lijst staat, krijg ik een foutmelding dat de film al bestaat.
+- [x] De film wordt niet toegevoegd als deze al in de lijst voorkomt.
+- [x] De lijst bevat nooit duplicaten van dezelfde filmtitel.
 
 ---
 
@@ -113,9 +113,9 @@ Als gebruiker wil ik een melding zien wanneer mijn favorietenlijst leeg is, zoda
 
 ### Acceptatiecriteria:
 
-- [ ]  Wanneer er geen films in de lijst staan, verschijnt er een bericht met de tekst "No favorite movies yet. Add some!".
-- [ ]  Zodra de eerste film wordt toegevoegd, verdwijnt dit bericht.
-- [ ]  Als alle films verwijderd zijn, verschijnt het bericht opnieuw.
+- [x] Wanneer er geen films in de lijst staan, verschijnt er een bericht met de tekst "No favorite movies yet. Add some!".
+- [x] Zodra de eerste film wordt toegevoegd, verdwijnt dit bericht.
+- [x] Als alle films verwijderd zijn, verschijnt het bericht opnieuw.
 
 ---
 
