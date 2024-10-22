@@ -11,8 +11,9 @@ function App() {
     if (!movies.includes(newMovie)) {
       alert('This movie is already in your favorites!');
       return;
+    } else {
+    setMovies([...movies, newMovie]);
     }
-    setMovie([...movies, newMovie]);
   };
 
   const deleteMovie = (movieToDelete) => {
